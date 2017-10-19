@@ -4,7 +4,7 @@ import util.TODO
 import util.doc0
 
 fun todoTask0(): Nothing = TODO(
-    """
+        """
         Task 0.
 
         Read README.md to learn how to work with this project and check your solutions.
@@ -20,11 +20,9 @@ fun todoTask0(): Nothing = TODO(
 
         Let's start! Make the function 'task0' return "OK". Note that you can return expression directly.
     """,
-    documentation = doc0(),
-    references = { task0(); "OK" }
+        documentation = doc0(),
+        references = { task0(); "OK" }
 )
 
-fun task0(): String {
-    return "OK"
 
-}
+fun task0() = "OK"
